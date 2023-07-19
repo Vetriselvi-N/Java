@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+public static void main(String[]args){
+int i=3,diff=0,next=0;
+    while(i<input4){
+        diff=input2-input1;
+        next=input3+diff;
+        input1=input2;
+        input2=input3;
+        input3=next;
+        i++;
+    }
+    return next;
+    }}
